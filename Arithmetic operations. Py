@@ -1,24 +1,33 @@
-
 dict1={1:"+",2:"-",3:"*",4:"//",5:"%",6:"**"} 
-A1=(input("The arithmetic operation you want to do")) 
-N1=int(input("Enter first number")) 
-N2=int(input("Enter second number"))
+A1=(input("The arithmetic operation you want to do"))
 if dict1.get(1)==A1:
+    N1=int(input("Enter first number")) 
+    N2=int(input("Enter second number"))
     A=N1+N2
     print("\nThe sum of two numbers is:" ,A,)
 elif dict1.get(2)==A1:
+    N1=int(input("Enter first number")) 
+    N2=int(input("Enter second number"))
     B=N1-N2
     print("\nThe difference of two numbers is:",B,) 
-elif dict.get(3)==A1:
+elif dict1.get(3)==A1:
+    N1=int(input("Enter first number")) 
+    N2=int(input("Enter second number"))
     C=N1*N2
     print("\nThe product of two numbers is:",C,) 
-elif dict.get(4)==A1:
+elif dict1.get(4)==A1:
+    N1=int(input("Enter first number")) 
+    N2=int(input("Enter second number"))
     D=N1//N2
     print("\nThe quotient of two numbers is:",D,) 
-elif dict.get(5)==A1:
+elif dict1.get(5)==A1:
+    N1=int(input("Enter first number")) 
+    N2=int(input("Enter second number"))
     E=N1%N2
     print("\nThe remainder of two numbers is:",E,) 
-elif dict.get(6)==A1:
+elif dict1.get(6)==A1:
+    N1=int(input("Enter first number")) 
+    N2=int(input("Enter second number"))
     F=N1**N2
     print("\nThe number after powering is:",F,)
 else:
